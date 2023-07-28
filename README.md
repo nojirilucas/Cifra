@@ -1,7 +1,7 @@
 # Cifra
-Este código implementa uma cifra de substituição simples conhecida como "Cifra de César" ou "Cifra de deslocamento".
+Para resumir, o script cifra.py fornece funções básicas de criptografia e descriptografia da cifra de César, enquanto os scripts client.py e server.py demonstram uma comunicação simples cliente-servidor usando soquetes.
 
-A cifra de César é um tipo de criptografia em que cada letra de um texto é substituída por outra letra que se encontra um número fixo de posições à frente ou atrás no alfabeto.
+As mensagens enviadas pelo cliente não estão criptografadas no código, mas você poderia usar as funções encrypt e decrypt de cifra.py para adicionar criptografia e descriptografia às mensagens antes de enviá-las e depois de recebê-las, respectivamente.
 
 | Comando |  Mensagem criptografada       | Cifra de César   |
 |---------|--------------------------|-------------------------|
